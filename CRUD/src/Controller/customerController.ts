@@ -1,5 +1,5 @@
 import express, { Request, Response } from "express";
-import customerDetails from "../Model/customer";
+import {customerDetails} from "../Model/customer";
 
 const app = express();
 

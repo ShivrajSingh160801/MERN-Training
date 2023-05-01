@@ -9,7 +9,7 @@ const databaseConnection = connectDB();
 console.log(databaseConnection);
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
+// app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use('/customer', customerRoute);
 const port = 3000;
